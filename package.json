@@ -22,7 +22,6 @@
   },
   "scripts": {
     "start": "ts-node ./server.ts & react-scripts start",
-    "install": "npm install",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
   },
