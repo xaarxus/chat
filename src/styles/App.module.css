@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.messages {
+  font-size: 20px;
+  margin: 50px 100px;
+}
