@@ -5,7 +5,7 @@ import NewMessage from './components/NewMessage';
 
 import styles from './styles/App.module.css';
 
-const site = 'https://chat-eight-smoky.vercel.app/';
+const site = 'thunderous-caramel-4296ba.netlify.app';
 const ws = new WebSocket(`ws://${site}:4000`)
 
 
