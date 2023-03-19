@@ -5,7 +5,8 @@ import NewMessage from './components/NewMessage';
 
 import styles from './styles/App.module.css';
 
-const ws = new WebSocket('ws://localhost:4000')
+const site = 'https://chat-eight-smoky.vercel.app/';
+const ws = new WebSocket(`ws://${site}:4000`)
 
 
 const App = () => {
